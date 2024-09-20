@@ -1,0 +1,57 @@
+body {
+    color: black;
+    background-color: #f9f8f6;
+    background-image: url('image background.jfif');
+    background-position: center;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.4em;
+    margin: 0px auto;
+}
+layout {
+    width: 940px;
+    margin: 20px auto 20px auto;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+}
+header {
+    height: 160px;
+    text-align: left;
+    color: darkblue;
+h1 {
+    text-align: center;
+    text-decoration: double;
+    color: darkblue;
+    font-size: 38pt;
+}
+}
+img {
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+}
+h2 {
+    text-decoration: underline;
+    font-size: 22pt;
+}
+section {
+    display: block;
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+footer {
+    font-size: 20px;
+    padding: 7px 0px 0px 20px;
+    text-align: center;
+}
+button {
+    font-family:Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px blue;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+button:hover {
+    background-color: #e63946;
+}
